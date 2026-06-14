@@ -35,9 +35,10 @@ jobs:
           pyinstaller --onefile --name ks-unify-backend-x86_64-pc-windows-msvc backend_sidecar.py
 
       - name: Place Windows backend sidecar
+        shell: pwsh
         run: |
-          mkdir desktop\src-tauri\binaries
-          copy dist\ks-unify-backend-x86_64-pc-windows-msvc.exe desktop\src-tauri\binaries\ks-unify-backend-x86_64-pc-windows-msvc.exe
+          New-Item -ItemType Directory -Force -Path "desktop\src-tauri\binaries"
+          Copy-Item "dist\ks-unify-backend-x86_64-pc-windows-msvc.exe" "desktop\src-tauri\binaries\ks-unify-backend-x86_64-pc-windows-msvc.exe" -Force
 
       - name: Install frontend dependencies
         working-directory: desktop
