@@ -17,11 +17,15 @@ jobs:
           node-version: 22
 
       - name: Setup Rust
-        uses: dtolnay/rust-toolchain@1.84.1
+        uses: dtolnay/rust-toolchain@1.86.0
 
       - name: Install frontend dependencies
         working-directory: desktop
         run: npm install
+
+      - name: Show Rust dependency tree
+        working-directory: desktop/src-tauri
+        run: cargo tree | findstr "brotli alloc-no-stdlib alloc-stdlib"
 
       - name: Build Tauri Windows app
         working-directory: desktop
