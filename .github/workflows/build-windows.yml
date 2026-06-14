@@ -5,7 +5,7 @@ on:
 
 jobs:
   build-windows:
-    runs-on: windows-latest
+    runs-on: windows-2022
 
     steps:
       - name: Checkout repository
@@ -14,7 +14,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@stable
@@ -24,6 +24,11 @@ jobs:
         run: npm install
 
       - name: Build Tauri Windows app
-        uses: tauri-apps/tauri-action@v0
+        working-directory: desktop
+        run: npm run tauri build
+
+      - name: Upload Windows bundles
+        uses: actions/upload-artifact@v4
         with:
-          projectPath: desktop
+          name: ks-unify-windows
+          path: desktop/src-tauri/target/release/bundle/**
