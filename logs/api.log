@@ -11792,3 +11792,11 @@
 [2026-06-13T20:04:48] GET /api-settings -> 200
 [2026-06-13T20:04:48] GET /network-info
 [2026-06-13T20:04:48] GET /network-info -> 200
+[2026-06-14T19:33:52] GET /dashboard
+[2026-06-14T19:33:52] GET /dashboard -> 200
+[2026-06-14T19:34:22] GET /dashboard
+[2026-06-14T19:34:22] GET /dashboard -> 200
+[2026-06-14T19:34:52] GET /dashboard
+[2026-06-14T19:34:52] GET /dashboard -> 200
+[2026-06-14T19:35:22] GET /dashboard
+[2026-06-14T19:35:22] GET /dashboard -> 200
