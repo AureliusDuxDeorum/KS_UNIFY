@@ -17,7 +17,7 @@ jobs:
           node-version: 22
 
       - name: Setup Rust
-        uses: dtolnay/rust-toolchain@stable
+        uses: dtolnay/rust-toolchain@1.84.1
 
       - name: Install frontend dependencies
         working-directory: desktop
