@@ -11800,3 +11800,133 @@
 [2026-06-14T19:34:52] GET /dashboard -> 200
 [2026-06-14T19:35:22] GET /dashboard
 [2026-06-14T19:35:22] GET /dashboard -> 200
+[2026-06-14T20:19:08] GET /providers
+[2026-06-14T20:19:08] GET /providers -> 200
+[2026-06-14T20:19:08] GET /dashboard
+[2026-06-14T20:19:08] GET /dashboard -> 200
+[2026-06-14T20:19:08] GET /dashboard
+[2026-06-14T20:19:08] GET /dashboard -> 200
+[2026-06-14T20:19:35] GET /dashboard
+[2026-06-14T20:19:35] GET /dashboard -> 200
+[2026-06-14T20:21:48] GET /providers
+[2026-06-14T20:21:48] GET /providers -> 200
+[2026-06-14T20:21:48] GET /dashboard
+[2026-06-14T20:21:48] GET /dashboard -> 200
+[2026-06-14T20:21:48] GET /dashboard
+[2026-06-14T20:21:48] GET /dashboard -> 200
+[2026-06-14T20:21:55] GET /providers
+[2026-06-14T20:21:55] GET /providers -> 200
+[2026-06-14T20:21:55] GET /dashboard
+[2026-06-14T20:21:55] GET /dashboard -> 200
+[2026-06-14T20:21:56] GET /models
+[2026-06-14T20:21:56] GET /models -> 200
+[2026-06-14T20:21:56] GET /logs/api
+[2026-06-14T20:21:56] GET /logs/api -> 200
+[2026-06-14T20:24:10] GET /dashboard
+[2026-06-14T20:24:10] GET /dashboard -> 200
+[2026-06-14T20:24:15] GET /providers
+[2026-06-14T20:24:15] GET /providers -> 200
+[2026-06-14T20:24:15] GET /dashboard
+[2026-06-14T20:24:15] GET /dashboard -> 200
+[2026-06-14T20:24:15] GET /models
+[2026-06-14T20:24:15] GET /models -> 200
+[2026-06-14T20:24:17] GET /api-settings
+[2026-06-14T20:24:17] GET /api-settings -> 200
+[2026-06-14T20:24:18] GET /network-info
+[2026-06-14T20:24:18] GET /network-info -> 200
+[2026-06-14T20:26:35] GET /health
+[2026-06-14T20:26:35] GET /health -> 200
+[2026-06-14T20:26:35] GET /health
+[2026-06-14T20:26:35] GET /health -> 200
+[2026-06-14T20:27:37] GET /dashboard
+[2026-06-14T20:27:37] GET /dashboard -> 200
+[2026-06-14T20:27:40] GET /providers
+[2026-06-14T20:27:40] GET /providers -> 200
+[2026-06-14T20:27:40] GET /dashboard
+[2026-06-14T20:27:40] GET /dashboard -> 200
+[2026-06-14T20:27:41] GET /dashboard
+[2026-06-14T20:27:41] GET /dashboard -> 200
+[2026-06-14T20:27:41] GET /providers
+[2026-06-14T20:27:41] GET /providers -> 200
+[2026-06-14T20:27:41] GET /dashboard
+[2026-06-14T20:27:41] GET /dashboard -> 200
+[2026-06-14T20:27:42] GET /dashboard
+[2026-06-14T20:27:42] GET /dashboard -> 200
+[2026-06-14T20:27:42] GET /providers
+[2026-06-14T20:27:42] GET /providers -> 200
+[2026-06-14T20:27:42] GET /dashboard
+[2026-06-14T20:27:42] GET /dashboard -> 200
+[2026-06-14T20:27:43] GET /dashboard
+[2026-06-14T20:27:43] GET /dashboard -> 200
+[2026-06-14T20:27:43] GET /providers
+[2026-06-14T20:27:43] GET /providers -> 200
+[2026-06-14T20:27:43] GET /dashboard
+[2026-06-14T20:27:43] GET /dashboard -> 200
+[2026-06-14T20:27:44] GET /dashboard
+[2026-06-14T20:27:44] GET /dashboard -> 200
+[2026-06-14T20:27:44] GET /providers
+[2026-06-14T20:27:44] GET /providers -> 200
+[2026-06-14T20:27:44] GET /dashboard
+[2026-06-14T20:27:44] GET /dashboard -> 200
+[2026-06-14T20:27:44] GET /dashboard
+[2026-06-14T20:27:44] GET /dashboard -> 200
+[2026-06-14T20:27:45] GET /providers
+[2026-06-14T20:27:45] GET /providers -> 200
+[2026-06-14T20:27:45] GET /dashboard
+[2026-06-14T20:27:45] GET /dashboard -> 200
+[2026-06-14T20:27:45] GET /dashboard
+[2026-06-14T20:27:45] GET /dashboard -> 200
+[2026-06-14T20:27:46] GET /providers
+[2026-06-14T20:27:46] GET /providers -> 200
+[2026-06-14T20:27:46] GET /dashboard
+[2026-06-14T20:27:46] GET /dashboard -> 200
+[2026-06-14T20:27:46] GET /dashboard
+[2026-06-14T20:27:46] GET /dashboard -> 200
+[2026-06-14T20:27:47] GET /providers
+[2026-06-14T20:27:47] GET /providers -> 200
+[2026-06-14T20:27:47] GET /dashboard
+[2026-06-14T20:27:47] GET /dashboard -> 200
+[2026-06-14T20:27:47] GET /dashboard
+[2026-06-14T20:27:47] GET /dashboard -> 200
+[2026-06-14T20:27:49] GET /providers
+[2026-06-14T20:27:49] GET /providers -> 200
+[2026-06-14T20:27:49] GET /dashboard
+[2026-06-14T20:27:49] GET /dashboard -> 200
+[2026-06-14T20:27:50] GET /dashboard
+[2026-06-14T20:27:50] GET /dashboard -> 200
+[2026-06-14T20:27:50] GET /providers
+[2026-06-14T20:27:50] GET /providers -> 200
+[2026-06-14T20:27:50] GET /dashboard
+[2026-06-14T20:27:50] GET /dashboard -> 200
+[2026-06-14T20:27:50] GET /dashboard
+[2026-06-14T20:27:50] GET /dashboard -> 200
+[2026-06-14T20:27:51] GET /providers
+[2026-06-14T20:27:51] GET /providers -> 200
+[2026-06-14T20:27:51] GET /dashboard
+[2026-06-14T20:27:51] GET /dashboard -> 200
+[2026-06-14T20:27:51] GET /dashboard
+[2026-06-14T20:27:51] GET /dashboard -> 200
+[2026-06-14T20:27:51] GET /providers
+[2026-06-14T20:27:51] GET /providers -> 200
+[2026-06-14T20:27:51] GET /dashboard
+[2026-06-14T20:27:51] GET /dashboard -> 200
+[2026-06-14T20:27:52] GET /dashboard
+[2026-06-14T20:27:52] GET /dashboard -> 200
+[2026-06-14T20:27:53] GET /providers
+[2026-06-14T20:27:53] GET /providers -> 200
+[2026-06-14T20:27:53] GET /dashboard
+[2026-06-14T20:27:53] GET /dashboard -> 200
+[2026-06-14T20:27:57] GET /dashboard
+[2026-06-14T20:27:57] GET /dashboard -> 200
+[2026-06-14T20:27:58] GET /providers
+[2026-06-14T20:27:58] GET /providers -> 200
+[2026-06-14T20:27:58] GET /dashboard
+[2026-06-14T20:27:58] GET /dashboard -> 200
+[2026-06-14T20:27:58] GET /dashboard
+[2026-06-14T20:27:58] GET /dashboard -> 200
+[2026-06-14T20:57:10] GET /dashboard
+[2026-06-14T20:57:10] GET /dashboard -> 200
+[2026-06-14T20:57:11] GET /providers
+[2026-06-14T20:57:11] GET /providers -> 200
+[2026-06-14T20:57:11] GET /dashboard
+[2026-06-14T20:57:12] GET /dashboard -> 200
