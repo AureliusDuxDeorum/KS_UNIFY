@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KS Unify</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">KS</div>
+        <div>
+          <h1>KS Unify</h1>
+          <p>AI Control Layer</p>
+        </div>
+      </div>
+
+      <nav>
+        <button class="nav-item active">Dashboard</button>
+        <button class="nav-item">Providers</button>
+        <button class="nav-item">Models</button>
+        <button class="nav-item">Routing</button>
+        <button class="nav-item">API</button>
+        <button class="nav-item">Test Chat</button>
+        <button class="nav-item">Logs</button>
+        <button class="nav-item">Settings</button>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h2>Dashboard</h2>
+          <p>Unified provider infrastructure status</p>
+        </div>
+
+        <div class="status-pill" id="backend-status">
+          Backend: Checking
+        </div>
+      </header>
+
+      <section class="grid">
+        <div class="card">
+          <span class="label">Providers</span>
+          <strong id="provider-count">-</strong>
+          <p id="provider-sub">Loading provider state</p>
+        </div>
+
+        <div class="card">
+          <span class="label">Models</span>
+          <strong id="model-count">-</strong>
+          <p>Available through unified registry</p>
+        </div>
+
+        <div class="card">
+          <span class="label">Routing Rules</span>
+          <strong id="routing-count">-</strong>
+          <p>Automatic model selection rules</p>
+        </div>
+
+        <div class="card">
+          <span class="label">Services</span>
+          <strong id="service-count">-</strong>
+          <p id="service-sub">Checking services</p>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h3>Provider Status</h3>
+          <button id="refresh-btn">Refresh</button>
+        </div>
+
+        <div id="providers-list" class="list">
+          Loading providers...
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h3>Services</h3>
+        </div>
+
+        <div id="services-list" class="list">
+          Loading services...
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

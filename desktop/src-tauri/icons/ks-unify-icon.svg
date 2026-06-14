@@ -1,0 +1,31 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect x="96" y="96" width="832" height="832" rx="120" fill="#111111" stroke="#444444" stroke-width="28"/>
+
+  <text x="512" y="415"
+        text-anchor="middle"
+        font-family="Inter, Arial, sans-serif"
+        font-size="260"
+        font-weight="800"
+        fill="#f2f2f2">K</text>
+
+  <text x="512" y="710"
+        text-anchor="middle"
+        font-family="Inter, Arial, sans-serif"
+        font-size="260"
+        font-weight="800"
+        fill="#f2f2f2">S</text>
+
+  <path d="M285 338 H370 V390 H330 V634 H370 V686 H285"
+        fill="none"
+        stroke="#777777"
+        stroke-width="30"
+        stroke-linecap="square"
+        stroke-linejoin="miter"/>
+
+  <path d="M739 338 H654 V390 H694 V634 H654 V686 H739"
+        fill="none"
+        stroke="#777777"
+        stroke-width="30"
+        stroke-linecap="square"
+        stroke-linejoin="miter"/>
+</svg>

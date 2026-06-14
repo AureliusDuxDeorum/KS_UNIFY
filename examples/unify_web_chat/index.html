@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KS Unify Web Chat Test</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>KS Unify Web Chat Test</h1>
+      <p>A tiny external web app using the KS Unify API.</p>
+    </header>
+
+    <section class="settings">
+      <label>
+        KS Unify API Base URL
+        <input id="api-base" value="http://localhost:8000">
+      </label>
+
+      <label>
+        Provider
+        <select id="provider">
+          <option value="auto">auto</option>
+          <option value="ollama">ollama</option>
+          <option value="ollama_cloud">ollama_cloud</option>
+          <option value="openai">openai</option>
+        </select>
+      </label>
+
+      <label>
+        Model
+        <input id="model" value="auto">
+      </label>
+    </section>
+
+    <section id="chat" class="chat"></section>
+
+    <form id="chat-form" class="composer">
+      <textarea id="message" placeholder="Type a message..." rows="4"></textarea>
+      <button type="submit">Send Streaming</button>
+    </form>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>

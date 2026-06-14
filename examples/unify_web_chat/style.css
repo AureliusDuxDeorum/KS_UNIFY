@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: #f2f2f2;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+.app {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+p {
+  color: #888;
+}
+
+.settings {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid #252525;
+  background: #131313;
+  margin-bottom: 18px;
+}
+
+label {
+  display: grid;
+  gap: 8px;
+  color: #aaa;
+  font-size: 13px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 1px solid #333;
+  background: #0b0b0b;
+  color: #eee;
+  padding: 12px;
+  font: inherit;
+}
+
+.chat {
+  min-height: 420px;
+  border: 1px solid #252525;
+  background: #111;
+  padding: 18px;
+  margin-bottom: 18px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 16px;
+  padding: 14px;
+  border: 1px solid #262626;
+  background: #181818;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.message.user {
+  background: #202020;
+}
+
+.role {
+  display: block;
+  margin-bottom: 8px;
+  color: #aaa;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.composer {
+  display: grid;
+  gap: 12px;
+}
+
+button {
+  border: 1px solid #444;
+  background: #1b1b1b;
+  color: #eee;
+  padding: 12px 16px;
+  cursor: pointer;
+  font: inherit;
+}
+
+button:hover {
+  background: #242424;
+  border-color: #666;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}

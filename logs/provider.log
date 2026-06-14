@@ -1,0 +1,6 @@
+[2026-06-07T18:14:16] chat provider=ollama model=gpt-oss:20b
+[2026-06-08T20:11:03] chat provider=ollama model=gpt-oss:20b
+[2026-06-08T20:40:45] stream chat provider=ollama model=qwen2.5:7b
+[2026-06-08T20:42:23] stream chat provider=ollama model=gpt-oss:20b
+[2026-06-11T21:16:54] stream chat provider=ollama model=gpt-oss:20b
+[2026-06-13T20:01:35] stream chat provider=ollama model=gpt-oss:20b

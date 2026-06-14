@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KS Unify</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">KS</div>
+        <div>
+          <h1>KS Unify</h1>
+          <p>AI Control Layer</p>
+        </div>
+      </div>
+
+      <nav>
+        <button class="nav-item active" data-page="dashboard">Dashboard</button>
+        <button class="nav-item" data-page="providers">Providers</button>
+        <button class="nav-item" data-page="models">Models</button>
+        <button class="nav-item" data-page="routing">Routing</button>
+        <button class="nav-item" data-page="api">API</button>
+        <button class="nav-item" data-page="chat">Test Chat</button>
+        <button class="nav-item" data-page="logs">Logs</button>
+        <button class="nav-item" data-page="history">History</button>
+        <button class="nav-item" data-page="settings">Settings</button>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h2 id="page-title">Dashboard</h2>
+          <p id="page-subtitle">Unified provider infrastructure status</p>
+        </div>
+
+        <div class="status-pill" id="backend-status">
+          Backend: Checking
+        </div>
+      </header>
+
+      <section id="page-content"></section>
+    </main>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

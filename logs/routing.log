@@ -1,0 +1,11 @@
+[2026-06-07T18:14:16] auto model selected model=gpt-oss:20b
+[2026-06-07T18:14:16] auto provider selected provider=ollama model=gpt-oss:20b
+[2026-06-08T20:11:03] auto model selected model=gpt-oss:20b
+[2026-06-08T20:11:03] auto provider selected provider=ollama model=gpt-oss:20b
+[2026-06-11T21:13:52] add rule=code keyword route type=keyword priority=10 model=YOUR_MODEL_NAME
+[2026-06-11T21:16:54] auto route selected rule=default provider=auto model=gpt-oss:20b
+[2026-06-11T21:16:54] auto provider selected provider=ollama model=gpt-oss:20b
+[2026-06-11T21:25:44] delete rule=nonexistent
+[2026-06-11T21:54:49] toggle rule=YOUR_RULE_NAME
+[2026-06-13T20:01:35] auto route selected rule=default provider=auto model=gpt-oss:20b
+[2026-06-13T20:01:35] auto provider selected provider=ollama model=gpt-oss:20b

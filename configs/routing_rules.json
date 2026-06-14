@@ -1,0 +1,26 @@
+{
+  "rules": [
+    {
+      "name": "code keyword route",
+      "enabled": true,
+      "priority": 10,
+      "match_type": "keyword",
+      "keyword": "code",
+      "max_length": 1000000,
+      "provider": "auto",
+      "model": "YOUR_MODEL_NAME"
+    },
+    {
+      "name": "default",
+      "enabled": true,
+      "max_length": 1000000,
+      "model": "gpt-oss:20b"
+    },
+    {
+      "name": "default",
+      "enabled": true,
+      "max_length": 1000000,
+      "model": "YOUR_MODEL_NAME"
+    }
+  ]
+}

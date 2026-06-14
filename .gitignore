@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+configs/providers.json
+configs/ks_unify.db
+configs/*.db
+backend/logs/
+desktop/node_modules/
+desktop/src-tauri/target/
+desktop/src-tauri/Cargo.lock
