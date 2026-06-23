@@ -1,0 +1,59 @@
+name: Build macOS
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-macos:
+    runs-on: macos-13
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@1.88.0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python backend dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build macOS backend sidecar
+        run: |
+          pyinstaller --onefile --name ks-unify-backend-x86_64-apple-darwin backend_sidecar.py
+
+      - name: Place macOS backend sidecar
+        run: |
+          mkdir -p desktop/src-tauri/binaries
+          cp dist/ks-unify-backend-x86_64-apple-darwin desktop/src-tauri/binaries/ks-unify-backend-x86_64-apple-darwin
+          chmod +x desktop/src-tauri/binaries/ks-unify-backend-x86_64-apple-darwin
+
+      - name: Install frontend dependencies
+        working-directory: desktop
+        run: npm install
+
+      - name: Show Rust dependency tree
+        working-directory: desktop/src-tauri
+        run: cargo tree | grep -E "brotli|alloc-no-stdlib|alloc-stdlib" || true
+
+      - name: Build Tauri macOS app
+        working-directory: desktop
+        run: npm run tauri build
+
+      - name: Upload macOS bundles
+        uses: actions/upload-artifact@v4
+        with:
+          name: ks-unify-macos
+          path: desktop/src-tauri/target/release/bundle/**
